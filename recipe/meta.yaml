@@ -29,7 +29,7 @@ requirements:
     - pathos
     - dill
     - requests
-    - ds-lime >=0.1.1.21
+    - ds-lime >=0.1.1.26
 
 test:
   imports:
