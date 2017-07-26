@@ -1,5 +1,5 @@
 {% set name = "skater" %}
-{% set version = "1.0.0b11" %}
+{% set version = "1.0.2" %}
 {% set sha256 = "fd49c8caaf98733989023c0d733f87012ca466a66a006edb893510316f4c5f73" %}
 
 package:
@@ -29,7 +29,7 @@ requirements:
     - pathos
     - dill
     - requests
-    - ds-lime >=0.1.1.26
+    - ds-lime >=0.1.1.27
 
 test:
   imports:
