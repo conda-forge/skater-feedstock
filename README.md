@@ -1,4 +1,4 @@
-About skater
+About Skater
 ============
 
 Home: https://github.com/datascienceinc/Skater
