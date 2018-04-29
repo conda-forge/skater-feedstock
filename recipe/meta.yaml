@@ -1,6 +1,6 @@
 {% set name = "skater" %}
-{% set version = "1.0.2" %}
-{% set sha256 = "736ec805ebd0aabe635fe7f6c1b87e3ec4f30006fecba742aede651cb4a76e6f" %}
+{% set version = "1.0.4" %}
+{% set sha256 = "7a6eba99810300aa7c2d8d471e739bc55bfc6b8750f23098038c479327934d3e" %}
 
 package:
   name: {{ name|lower }}
