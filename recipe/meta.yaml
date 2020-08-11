@@ -1,6 +1,6 @@
 {% set name = "skater" %}
-{% set version = "1.0.2" %}
-{% set sha256 = "736ec805ebd0aabe635fe7f6c1b87e3ec4f30006fecba742aede651cb4a76e6f" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "825609b4f354511caf9e1fb315a3b8e288ca4826e896f121e16aeca25c3e4013" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -47,7 +47,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python Library for Model Agnostic Interpretation'
+  summary: Python Library for Model Agnostic Interpretation
   description: |
     Skater is a python package for model agnostic interpretation of predictive
     models. With Skater, you can unpack the internal mechanics of arbitrary
